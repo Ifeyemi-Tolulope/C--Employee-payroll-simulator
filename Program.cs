@@ -7,7 +7,7 @@ namespace EmployeeTest
         static void Main(string[] args)
         {
         Employee Employee1 = new Employee("James","Henry",9000.0);
-        Employee Employee2 = new Employee("Bum","Gin",1000 );
+        Employee Employee2 = new Employee("Bum","Gin",2000 );
 
         double tenPercentRaiseEmployee1 =  (10.0/100) * Employee1.MonthlySalary + Employee1.MonthlySalary;
         double tenPercentRaiseEmployee2 = (10.0/100*Employee2.MonthlySalary + Employee2.MonthlySalary);
